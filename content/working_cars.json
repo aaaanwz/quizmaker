@@ -1,0 +1,45 @@
+{
+    "title": "はたらくくるまクイズ",
+    "questions": [
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Patrol_car1.jpg",
+            "answer": "パトカー"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Japanese_Ambulance.jpg",
+            "answer": "きゅうきゅうしゃ"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Fire-Engine-02.jpg",
+            "answer": "しょうぼうしゃ"
+        },
+        {
+            "photo": "https://toyota.jp/pages/contents/jpntaxi/001_b_001/image/top/exterior-bg1.jpg",
+            "answer": "タクシー"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Hydraulic_excavator.jpg",
+            "answer": "ショベルカー"
+        },
+        {
+            "photo": "https://jafmate.jp/car/__icsFiles/afieldfile/2025/06/02/_DSR4397_1785.jpg",
+            "answer": "ごみしゅうしゅうしゃ"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/CAT-D10N-pic005.jpg/2560px-CAT-D10N-pic005.jpg",
+            "answer": "ブルドーザー"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/2/20/CementMixerM2439.jpg",
+            "answer": "ミキサーしゃ"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%E6%97%A5%E6%9C%AC%E9%80%9A%E9%81%8B%E3%83%80%E3%83%B3%E3%83%97%E3%82%AB%E3%83%BC01.JPG/2560px-%E6%97%A5%E6%9C%AC%E9%80%9A%E9%81%8B%E3%83%80%E3%83%B3%E3%83%97%E3%82%AB%E3%83%BC01.JPG",
+            "answer": "ダンプカー"
+        },
+        {
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chiba_City_Bus_C201_KK-LR233J1.jpg",
+            "answer": "バス"
+        }
+    ]
+}

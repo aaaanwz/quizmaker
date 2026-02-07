@@ -42,6 +42,26 @@ jsonファイルで問題を作成することで、GitHub Actionsで簡単に�
 
 3. GitHub Pagesで公開されます
 
+## ローカル実行方法
+
+1. リポジトリをクローンする
+
+2. 依存関係をインストールする
+   ```bash
+   npm install
+   ```
+
+3. 開発サーバーを起動する
+   ```bash
+   npm run dev
+   ```
+   http://localhost:3000 にアクセスすると確認できます。
+
+   ビルドのみ行う場合は以下を実行します：
+   ```bash
+   npm run build
+   ```
+
 ## アプリ仕様
 
 - トップページ (/index.html)
