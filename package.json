@@ -1,0 +1,13 @@
+{
+    "name": "quizmaker",
+    "version": "1.0.0",
+    "description": "JSONファイルで問題を作成することで、GitHub Actionsで簡単にクイズアプリを公開できるツール",
+    "scripts": {
+        "build": "node scripts/build.js",
+        "dev": "node scripts/build.js && npx serve dist -p 3000",
+        "watch": "node scripts/watch.js"
+    },
+    "devDependencies": {
+        "serve": "^14.2.0"
+    }
+}

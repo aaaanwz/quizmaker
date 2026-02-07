@@ -1,0 +1,25 @@
+{
+    "title": "しんかんせんクイズ",
+    "questions": [
+        {
+            "photo": "https://www.jreast.co.jp/train/shinkan/img/e8_img01.jpg",
+            "answer": "つばさ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/train/shinkan/img/e6_img01.jpg",
+            "answer": "こまち"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/train/shinkan/img/e5_img01.jpg",
+            "answer": "はやぶさ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/train/shinkan/img/e2_img01.jpg",
+            "answer": "やまびこ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/train/shinkan/img/e7_img01.jpg",
+            "answer": "かがやき"
+        }
+    ]
+}

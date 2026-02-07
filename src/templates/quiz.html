@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{QUIZ_TITLE}} - クイズメーカー</title>
+    <meta name="description" content="{{QUIZ_TITLE}}に挑戦しよう！">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container quiz-container">
+        <header class="quiz-header">
+            <a href="../index.html" class="back-button">← もどる</a>
+            <h1 class="quiz-page-title">{{QUIZ_TITLE}}</h1>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="currentQuestion">1</span> / <span id="totalQuestions">0</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="quiz-main" id="quizMain">
+            <!-- Question Screen -->
+            <div class="screen question-screen" id="questionScreen">
+                <div class="question-image-container">
+                    <img id="questionImage" src="" alt="問題の画像" class="question-image">
+                </div>
+                <div class="answers-container" id="answersContainer">
+                    <!-- Answers will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Result Screen -->
+            <div class="screen result-screen hidden" id="resultScreen">
+                <div class="result-content">
+                    <div class="result-icon" id="resultIcon">🎉</div>
+                    <h2 class="result-title" id="resultTitle">クイズ終了！</h2>
+                    <div class="result-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">正解数</span>
+                            <span class="stat-value" id="correctCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">問題数</span>
+                            <span class="stat-value" id="totalCount">0</span>
+                        </div>
+                        <div class="stat-item accuracy">
+                            <span class="stat-label">正答率</span>
+                            <span class="stat-value" id="accuracyRate">0%</span>
+                        </div>
+                    </div>
+                    <div class="result-actions">
+                        <button class="btn btn-primary" id="retryButton">もう一度挑戦</button>
+                        <a href="../index.html" class="btn btn-secondary">トップに戻る</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Feedback Overlay -->
+        <div class="feedback-overlay hidden" id="feedbackOverlay">
+            <div class="feedback-content">
+                <div class="feedback-icon" id="feedbackIcon"></div>
+                <div class="feedback-text" id="feedbackText"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const QUIZ_DATA = {{ QUIZ_DATA }};
+        const ALL_ANSWERS = {{ ALL_ANSWERS }};
+    </script>
+    <script src="../js/quiz.js"></script>
+</body>
+
+</html>
