@@ -1,0 +1,25 @@
+{
+    "title": "けんせつきかいクイズ",
+    "questions": [
+        {
+            "photo": "https://kcsj.komatsu/-/media/kcsj/products/construction_machine/bulldozer_01/bulldozer_01_list/d155axi-8_1440x810.jpg",
+            "answer": "ブルドーザー"
+        },
+        {
+            "photo": "https://kcsj.komatsu/-/media/kcsj/products/forklift/02_fe15_1440x810.jpg",
+            "answer": "フォークリフト"
+        },
+        {
+            "photo": "https://kcsj.komatsu/-/media/kcsj/products/construction_machine/excavator_02/excavator_02_list/pc300-11_1440x810.jpg",
+            "answer": "ショベルカー"
+        },
+        {
+            "photo": "https://kcsj.komatsu/-/media/kcsj/products/construction_machine/wheel_loader/wa200-8/wa200-8_01_1440x810.jpg",
+            "answer": "ホイールローダー"
+        },
+        {
+            "photo": "https://kcsj.komatsu/-/media/kcsj/products/construction_machine/dump_truck/dump_truck_list/hd785-7_1440x810.jpg",
+            "answer": "ダンプトラック"
+        }
+    ]
+}

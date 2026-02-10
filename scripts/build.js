@@ -14,6 +14,7 @@ fs.mkdirSync(path.join(DIST_DIR, 'quiz'), { recursive: true });
 fs.mkdirSync(path.join(DIST_DIR, 'content'), { recursive: true });
 fs.mkdirSync(path.join(DIST_DIR, 'css'), { recursive: true });
 fs.mkdirSync(path.join(DIST_DIR, 'js'), { recursive: true });
+fs.mkdirSync(path.join(DIST_DIR, 'icons'), { recursive: true });
 
 // Copy static assets
 const cssDir = path.join(__dirname, '..', 'src', 'css');
@@ -28,6 +29,26 @@ if (fs.existsSync(cssDir)) {
 if (fs.existsSync(jsDir)) {
     fs.readdirSync(jsDir).forEach(file => {
         fs.copyFileSync(path.join(jsDir, file), path.join(DIST_DIR, 'js', file));
+    });
+}
+
+// Copy manifest.json
+const SRC_DIR = path.join(__dirname, '..', 'src');
+fs.copyFileSync(path.join(SRC_DIR, 'manifest.json'), path.join(DIST_DIR, 'manifest.json'));
+
+// Copy sw.js with cache version updated to build timestamp
+const swSource = fs.readFileSync(path.join(SRC_DIR, 'sw.js'), 'utf-8');
+const swOutput = swSource.replace(
+    "const CACHE_VERSION = 'v1'",
+    `const CACHE_VERSION = '${Date.now()}'`
+);
+fs.writeFileSync(path.join(DIST_DIR, 'sw.js'), swOutput);
+
+// Copy icons
+const iconsDir = path.join(SRC_DIR, 'icons');
+if (fs.existsSync(iconsDir)) {
+    fs.readdirSync(iconsDir).forEach(file => {
+        fs.copyFileSync(path.join(iconsDir, file), path.join(DIST_DIR, 'icons', file));
     });
 }
 

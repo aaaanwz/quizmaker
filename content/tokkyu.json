@@ -1,0 +1,41 @@
+{
+    "title": "とっきゅうクイズ",
+    "questions": [
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train4_img.jpg",
+            "answer": "サフィール踊り子"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train4_2_img.jpg",
+            "answer": "踊り子"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train1_img.jpg",
+            "answer": "あずさ・かいじ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train6_img.jpg",
+            "answer": "あかぎ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train7_img.jpg",
+            "answer": "スペーシア日光"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train7_2_img.jpg",
+            "answer": "きぬがわ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train2_img.jpg",
+            "answer": "ひたち・ときわ"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train3_img.jpg",
+            "answer": "成田エクスプレス"
+        },
+        {
+            "photo": "https://www.jreast.co.jp/ltd_exp/img/train5_img.jpg",
+            "answer": "しおさい・わかしお"
+        }
+    ]
+}
