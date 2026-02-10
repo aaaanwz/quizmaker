@@ -80,6 +80,7 @@ body {
   background: var(--bg-primary);
   color: var(--text-primary);
   min-height: 100vh;
+  min-height: 100dvh;
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -107,6 +108,7 @@ body::before {
   margin: 0 auto;
   padding: var(--space-lg);
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
@@ -242,6 +244,9 @@ body::before {
    ======================================== */
 .quiz-container {
   padding-top: var(--space-md);
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
 }
 
 .quiz-header {
@@ -608,32 +613,46 @@ body::before {
   .container {
     padding: var(--space-md);
   }
-  
+
   .main-title {
     font-size: 1.8rem;
   }
-  
+
   .title-icon {
     font-size: 2rem;
   }
-  
+
   .quiz-title {
     font-size: 1.2rem;
   }
-  
+
+  .question-image-container {
+    min-height: 150px;
+    max-height: 35vh;
+    max-height: 35dvh;
+  }
+
   .answers-container {
     grid-template-columns: 1fr;
   }
-  
+
   .answer-btn {
-    padding: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
     font-size: 1rem;
   }
-  
+
+  .question-screen {
+    gap: var(--space-md);
+  }
+
+  .quiz-header {
+    margin-bottom: var(--space-md);
+  }
+
   .result-stats {
     gap: var(--space-lg);
   }
-  
+
   .stat-value {
     font-size: 1.5rem;
   }
